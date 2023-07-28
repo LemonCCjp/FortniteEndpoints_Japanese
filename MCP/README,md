@@ -6,14 +6,24 @@
 **URL**: `https://fngw-mcp-gc-livefn.ol.epicgames.com/fortnite/api/game/v2/profile/:accountId/:route/:operation` \
 **Body**: `Individual`
 
+## Query Parameters
+
+| Name      | Value       | Default Value |
+| --------- | ----------- | ------------- |
+| profileId | {profileId} | common_core   |
+| rvn       | -1          | -1            |
+
+**NOTE**: if its a "DedicatedServer ONLY" operation you cant use it
+
+<br/>
 
 ## Profiles
 
 | ProfileId                   | Description                                                                                                 |
 | --------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| athena                      | バトルロイヤルデータ       　                                                                                  |
-| creative                    | クリエイティブデータ       　                                                                                  |
-| campaign                    | 世界を救えデータ                                                                                              |
+| athena                      | Battle Royale data                                                                                          |
+| creative                    | Creative data                                                                                               |
+| campaign                    | Save the World data                                                                                         |
 | common_public               | Public data (e.g. current user banner)                                                                      |
 | collections                 | Battle Royale Collection (Fishing / NPC)                                                                    |
 | common_core                 | Main Profile storing general info like banners, purchases, ban status & history, gift history and much more |
