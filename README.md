@@ -1,0 +1,1 @@
+# FortniteEndpoints_Japanese
