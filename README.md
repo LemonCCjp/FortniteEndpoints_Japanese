@@ -1,1 +1,3 @@
 # FortniteEndpoints_Japanese
+
+個人的に使ったり見つけてきたエンドポイントを日本語でまとめる。
